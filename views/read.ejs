@@ -12,8 +12,11 @@
 <body>
     <div class="container mt-4">
 
-        <h3>Read Operation</h3>
 
+        <div class="d-flex justify-content-between">
+            <h3>Read Operation</h3>
+            <button type="submit" class="btn btn-info"><a href="/create.html">Create</a></button>
+        </div>
         <div class="row">
             <% if(rows.length> 0) { %>
                 <% rows.map((eachData)=> { %>
