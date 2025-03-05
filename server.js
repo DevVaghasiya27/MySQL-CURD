@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.redirect("/create.html")
+    res.redirect("/data")
 })
 
 app.get('/data', (req, res) => {
